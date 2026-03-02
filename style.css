@@ -821,7 +821,7 @@ body{
   margin: 120px auto;
   padding: 100px 40px;
   border-radius: 40px;
-  background: url("Img/58801.png") center/cover no-repeat;
+  background-image: url("Img/58801.png") center/cover no-repeat;
   color: white;
   text-align: center;
   position: relative;
@@ -3301,4 +3301,5 @@ body{
   }
 
 }
+
 
