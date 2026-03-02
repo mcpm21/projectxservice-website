@@ -304,6 +304,7 @@ body{
     flex-direction: column;
     text-align: center;
     gap: 50px;
+    align-items: center;
   }
 
   .hero-text{
@@ -312,8 +313,7 @@ body{
   }
 
   .form-card{
-    margin-left: 20px;
-    margin-right: 0;
+  margin: 0 auto;
   }
 }
 
@@ -332,7 +332,7 @@ body{
 .phone-box{
     font-size: 16px;
     padding: 10px 18px;
-    margin: 5px auto 0 auto; /* centra automáticamente */
+    margin: 5px auto 0 auto; 
 }
 
   .phone-icon{
@@ -367,7 +367,7 @@ body{
 
   .form-card{
     width: 95%;
-    justify-content: center;
+    margin: 0 auto; 
   }
 }
 
@@ -375,9 +375,12 @@ body{
   .hero-phone{
     justify-content: center; /* móvil */
   }
-    .form-card{
-    justify-content: center;
-    }
+
+  .form-card{
+    width: 90%;
+    padding: 25px;
+    margin: 0 auto; 
+  }
 }
 
 /* =================================== SECCIÓN 2 - FRANJA AZUL =================================== */
@@ -3305,6 +3308,7 @@ body{
   }
 
 }
+
 
 
 
