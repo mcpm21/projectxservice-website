@@ -367,6 +367,7 @@ body{
 
   .form-card{
     width: 95%;
+    justify-content: center;
   }
 }
 
@@ -374,6 +375,9 @@ body{
   .hero-phone{
     justify-content: center; /* móvil */
   }
+    .form-card{
+    justify-content: center;
+    }
 }
 
 /* =================================== SECCIÓN 2 - FRANJA AZUL =================================== */
@@ -3301,6 +3305,7 @@ body{
   }
 
 }
+
 
 
 
