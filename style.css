@@ -825,6 +825,98 @@ body{
   }
 }
 
+@media (max-width:1200px){
+
+  .process{
+    padding:100px 20px;
+  }
+
+  .process-header h2{
+    font-size:48px;
+  }
+
+  .process-steps{
+    gap:40px;
+  }
+
+}
+
+@media (max-width:1024px){
+
+  .process-header h2{
+    font-size:42px;
+  }
+
+  .process-header p{
+    font-size:17px;
+  }
+
+  .step-icon{
+    width:60px;
+    height:60px;
+  }
+
+  .step-icon img{
+    width:46px;
+  }
+
+  .step-text h3{
+    font-size:20px;
+  }
+
+}
+
+@media (max-width:1024px){
+
+  .process-header h2{
+    font-size:42px;
+  }
+
+  .process-header p{
+    font-size:17px;
+  }
+
+  .step-icon{
+    width:60px;
+    height:60px;
+  }
+
+  .step-icon img{
+    width:46px;
+  }
+
+  .step-text h3{
+    font-size:20px;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .process{
+    padding:70px 16px;
+  }
+
+  .process-header h2{
+    font-size:28px;
+  }
+
+  .process-step{
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+  }
+
+  .step-text{
+    text-align:center;
+  }
+
+  .step-icon{
+    margin-bottom:10px;
+  }
+
+}
+
 /* =================================== SECCIÓN 6 - MARCAS CON LAS QUE TRABAJAMOS =================================== */
 .brands{
   width: 90%;
@@ -3423,6 +3515,7 @@ body{
   }
 
 }
+
 
 
 
