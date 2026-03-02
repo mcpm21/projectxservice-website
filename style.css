@@ -613,6 +613,10 @@ body{
   .services-features{
     gap:30px;
   }
+
+    .feature-box h3{
+        font-size:20px;
+        }
 }
 
 /* =================================== SECCIÓN 4 - SERVICIOS =================================== */
@@ -3308,6 +3312,7 @@ body{
   }
 
 }
+
 
 
 
