@@ -821,7 +821,7 @@ body{
   margin: 120px auto;
   padding: 100px 40px;
   border-radius: 40px;
-  background: url("img/58801.png") center/cover no-repeat;
+  background: url("Img/58801.png") center/cover no-repeat;
   color: white;
   text-align: center;
   position: relative;
@@ -1310,7 +1310,7 @@ body{
 /* FRANJA */
 .qualifications-band{
     position: relative;
-    background: url("img/58801.png") center/cover no-repeat;
+    background: url("Img/58801.png") center/cover no-repeat;
     padding: 90px 20px;
     text-align: center;
     overflow: hidden;
@@ -2205,7 +2205,7 @@ body{
 
 .more-projects-band{
     position: relative;
-    background: url("img/58801.png") center/cover no-repeat;
+    background: url("Img/58801.png") center/cover no-repeat;
     padding: 62px 20px;
     text-align: center;
     overflow: hidden;
@@ -3301,3 +3301,4 @@ body{
   }
 
 }
+
