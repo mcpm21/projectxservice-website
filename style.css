@@ -1289,6 +1289,35 @@ body{
   .footer-container{
     grid-template-columns: 1fr;
   }
+
+  .footer-logo img{
+    height: 50px;
+  }
+
+  .footer-logo h3{
+    font-size: 1.6rem;
+  }
+
+  .footer-address img{
+  height: 50px;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .footer-logo img{
+    height: 42px;
+  }
+
+  .footer-logo h3{
+    font-size: 1.4rem;
+  }
+
+  .footer-address img{
+  height: 42px;
+  }
+
 }
 
 
@@ -3394,6 +3423,7 @@ body{
   }
 
 }
+
 
 
 
