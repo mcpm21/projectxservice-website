@@ -1672,43 +1672,107 @@ body{
 /* ============================= */
 /* RESPONSIVE */
 /* ============================= */
-@media (max-width: 992px){
-    .qualification-card.side{
-        width: 200px;
-        height: 200px;
-    }
+@media (max-width:1200px){
+  .qualifications-cards{
+    gap:60px;
+  }
 
-    .qualification-card.center{
-        width: 300px;
-        height: 400px;
-    }
+  .qualification-card.side{
+    width:220px;
+    height:210px;
+  }
+
+  .qualification-card.center{
+    width:340px;
+    height:440px;
+  }
 }
 
-@media (max-width: 768px){
-.qualifications-cards{
-    flex-direction: column;
-    gap: 50px;
+@media (max-width:992px){
+  .qualifications-band h2{
+    font-size:36px;
+  }
+
+  .qualifications-band p{
+    font-size:16px;
+  }
+
+  .qualifications-cards{
+    gap:40px;
+  }
+
+  .qualification-card.side{
+    width:180px;
+    height:180px;
+  }
+
+  .qualification-card.center{
+    width:260px;
+    height:360px;
+  }
 }
 
-.qualifications-column{
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+@media (max-width:820px){
+  .qualifications-cards{
+    gap:30px;
+  }
+
+  .qualification-card.side{
+    width:160px;
+    height:160px;
+  }
+
+  .qualification-card.center{
+    width:230px;
+    height:330px;
+  }
 }
 
-    .qualification-card.side,
-    .qualification-card.center{
-        width: 85%;
-        height: auto;
-        transform: none;
-    }
+@media (max-width:768px){
+  .qualifications-section{
+    padding-bottom:80px;
+  }
 
-    .qualification-card img{
-        width: 100%;
-        height: auto;
-    }
+  .qualifications-band{
+    padding:70px 20px;
+  }
+
+  .qualifications-band h2{
+    font-size:28px;
+  }
+
+  .qualifications-band p{
+    font-size:15px;
+  }
+
+  .qualifications-cards{
+    flex-direction:column;
+    gap:40px;
+    margin-top:80px;
+  }
+
+  .qualifications-column{
+    flex-direction:column;
+    gap:25px;
+    align-items:center;
+  }
+
+  .qualification-card.side{
+    width:80%;
+    max-width:320px;
+    height:auto;
+  }
+
+  .qualification-card.center{
+    width:85%;
+    max-width:360px;
+    height:auto;
+  }
+
+  .qualification-card img{
+    height:auto;
+  }
 }
-
 /* ===================================== SECCIÓN 3 - FAQ =====================================*/
 .faq-section{
     padding: 120px 0;
@@ -3517,6 +3581,7 @@ body{
   }
 
 }
+
 
 
 
