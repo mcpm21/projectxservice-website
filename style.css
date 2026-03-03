@@ -2305,6 +2305,18 @@ body{
   color:#2f5ec4;
 }
 
+@media (max-width:768px){
+  .contact-header h2{
+    font-size: 42px;
+  }
+}
+
+@media (max-width:480px){
+  .contact-header h2{
+    font-size: 36px;
+  }
+}
+
 /* =================== SECCIÓN 2 - CONTACT OTHERS PLATFORMS ====================== */
 .contact-platforms{
   margin-top:100px;
@@ -3701,6 +3713,7 @@ body{
   }
 
 }
+
 
 
 
