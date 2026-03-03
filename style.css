@@ -2041,6 +2041,61 @@ body{
     transition-delay: 0.1s;
 }
 
+@media (max-width:992px){
+  .cta-content{
+    width: 90%;
+  }
+
+  .cta-content h2{
+    font-size: 38px;
+  }
+
+  .cta-button{
+    padding: 14px 28px;
+  }
+}
+
+@media (max-width:768px){
+  .cta-section{
+    text-align: center;
+  }
+
+  .cta-content{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .cta-content h2{
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .cta-button{
+    padding: 14px 30px;
+  }
+}
+
+@media (max-width:768px){
+  .cta-overlay{
+    padding: 0 20px;
+  }
+}
+
+@media (max-width:480px){
+  .cta-section{
+    padding: 50px 0;
+  }
+
+  .cta-content h2{
+    font-size: 24px;
+  }
+
+  .cta-button{
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
 
 /* =================================== NAVBAR - SECCIÓN CONTACT =================================== */
 /* === CONTACT HERO =====*/
@@ -3661,6 +3716,7 @@ body{
   }
 
 }
+
 
 
 
