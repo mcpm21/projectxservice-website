@@ -3742,3 +3742,23 @@ body{
 .partners-btn.ghost:hover{background:#fff;color:#0f1f3d}
 @media (max-width:900px){.partners-grid{grid-template-columns:repeat(2,1fr)}.partners-head h2{font-size:34px}}
 @media (max-width:600px){.partners{padding:70px 0}.partners-container{width:90%}.partners-grid{grid-template-columns:1fr}.partners-head h2{font-size:28px}.partners-head p{font-size:16px}}
+
+/* ===== PARTNER MODAL ===== */
+.px-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+.px-modal.open{opacity:1;visibility:visible}
+.px-modal-backdrop{position:absolute;inset:0;background:rgba(10,20,45,.7);backdrop-filter:blur(3px)}
+.px-modal-box{position:relative;width:100%;max-width:460px;max-height:92vh;overflow-y:auto;background:#fff;color:#0f1f3d;border-radius:20px;padding:34px 28px 28px;box-shadow:0 25px 60px rgba(0,0,0,.35);transform:translateY(20px) scale(.97);transition:transform .3s}
+.px-modal.open .px-modal-box{transform:none}
+.px-modal-close{position:absolute;top:10px;right:14px;background:none;border:0;font-size:30px;line-height:1;color:#666;cursor:pointer}
+.px-modal-box h2{margin:0 0 6px;font-size:26px;color:#0f1f3d}
+.px-modal-sub{margin:0 0 18px;color:#555;font-size:15px}
+.px-modal-box form{display:flex;flex-direction:column;gap:12px}
+.px-modal-box input,.px-modal-box textarea{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid #d5dbe5;border-radius:10px;font:inherit;font-size:15px}
+.px-modal-box textarea{min-height:90px;resize:vertical}
+.px-modal-box input:focus,.px-modal-box textarea:focus{outline:none;border-color:#2d5ec4;box-shadow:0 0 0 3px rgba(45,94,196,.15)}
+.px-modal-box button[type=submit]{background:#2d5ec4;color:#fff;border:0;border-radius:10px;padding:14px;font-size:16px;font-weight:700;cursor:pointer;transition:background .25s}
+.px-modal-box button[type=submit]:hover{background:#1d4ed8}
+.px-modal-box button[disabled]{opacity:.7;cursor:wait}
+.px-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+.px-form-error{color:#c0392b;font-size:14px;margin:0}
+#partnerSuccess{display:none;flex-direction:column;align-items:center;text-align:center;padding:20px 0}
