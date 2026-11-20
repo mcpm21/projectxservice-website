@@ -16,9 +16,11 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Project X Service LLC","url":"https://projectxservicellc.com/","telephone":"+1-954-295-9720","email":"contact@projectxservice.com","description":"SOLAR repair and service for homeowners, solar companies and roofing contractors across South Florida: installation, battery storage, diagnostics, RMA/warranty, deinstall/reinstall and maintenance.","address":{"@type":"PostalAddress","addressLocality":"Fort Lauderdale","addressRegion":"FL","addressCountry":"US"},"areaServed":["Florida","Broward County, FL","Miami-Dade County, FL"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:30","closes":"18:00"}],"sameAs":["https://www.instagram.com/projectxservicellc/","https://www.facebook.com/profile.php?id=61576101704373"]}
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Project X Service LLC","url":"https://projectxservicellc.com/","telephone":"+1-954-295-9720","email":"contact@projectxservice.com","description":"SOLAR repair and service for homeowners and solar companies across South Florida: installation, battery storage, diagnostics, RMA/warranty, deinstall/reinstall and maintenance.","address":{"@type":"PostalAddress","addressLocality":"Fort Lauderdale","addressRegion":"FL","addressCountry":"US"},"areaServed":["Florida","Broward County, FL","Miami-Dade County, FL"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:30","closes":"18:00"}],"sameAs":["https://www.instagram.com/projectxservicellc/","https://www.facebook.com/profile.php?id=61576101704373"]}
 </script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
@@ -49,49 +51,39 @@
 </header>
 
 <!-- HERO -->
-  <section class="hero">
+  <section class="hero hx-hero">
 
-      <div class="overlay"></div>
+      <div class="hx-slides" aria-hidden="true">
+        <div class="hx-slide" style="background-image:url('Img/Fondo2.jpg')"></div>
+        <div class="hx-slide" style="background-image:url('Img/servicio2.jpg')"></div>
+        <div class="hx-slide" style="background-image:url('Img/A1.jpg')"></div>
+        <div class="hx-slide" style="background-image:url('Img/F-Projects.jpg')"></div>
+      </div>
+      <div class="overlay hx-overlay"></div>
 
       <div class="hero-container">
 
           <!-- TEXTO -->
           <div class="hero-text">
-              <h1 class="hero-reveal step-1">SOLAR Repair &amp; Service in South Florida</h1>
-              <p class="hero-reveal step-2">We find the problem and fix it. Certified technicians for homeowners, solar companies and roofers. Hablamos español.</p>
+              <span class="hx-kicker hero-reveal step-1"><i class="fa-solid fa-circle-check"></i> Certified &bull; Insured &bull; Hablamos español</span>
+              <h1 class="hero-reveal step-1"><span class="hx-grad">SOLAR</span> Repair &amp; Service in South Florida</h1>
+              <p class="hero-reveal step-2">Is your system not producing like it should? We find the problem and fix it, so your solar works at 100% again.</p>
 
           <div class="hero-buttons hero-reveal step-3">
-
-            <div class="contact-bar">
-              <div class="phone-box">
-                <div class="phone-icon">
-                  <img src="Img/tlf.png" alt="Teléfono">
-                </div>
-                <span class="phone-number">(954) 295-9720</span>
-              </div>
+            <div class="hx-cta">
+              <a class="hx-btn hx-wa" href="https://wa.me/19542959720" target="_blank" rel="noopener">
+                <span class="hx-ico"><i class="fa-brands fa-whatsapp"></i></span>
+                <span class="hx-txt"><small>WhatsApp &middot; Text &middot; Call</small><b>(954) 295-9720</b></span>
+              </a>
+              <a class="hx-btn hx-call" href="tel:+18135739991">
+                <span class="hx-ico"><i class="fa-solid fa-phone"></i></span>
+                <span class="hx-txt"><small>Call</small><b>(813) 573-9991</b></span>
+              </a>
             </div>
-
-            <div class="contact-bar">
-              <div class="phone-box">
-                <div class="phone-icon">
-                  <img src="Img/tlf.png" alt="Teléfono">
-                </div>
-                <span class="phone-number">(813) 573-9991</span>
-              </div>
-            </div>
-            
-            <div class="contact-bar">
-              <div class="phone-box">
-                <div class="phone-icon">
-                  <img src="Img/email-principal.png" alt="Email">
-                </div>
-                <span class="phone-number">contact@projectxservice.com</span>
-              </div>
-            </div>
-
+            <a class="hx-mail" href="mailto:contact@projectxservice.com"><i class="fa-regular fa-envelope"></i> contact@projectxservice.com</a>
           </div>
           </div>
-          
+
           <!-- FORMULARIO -->
           <div class="form hero-reveal step-4">
             <div class="form-card">
@@ -124,66 +116,85 @@
       </div>
 </section>
 
-<!-- FRANJA AZUL -->
-<section class="solar-band">
-  <div class="solar-container">
-
-      <div class="solar-left reveal-item">
-          <h2>Solar installation, service &amp; repair done right</h2>
-          <p> From new installations and battery storage to troubleshooting, RMA and maintenance, our certified team keeps solar systems performing at their best, with photos and a clear report on every job.</p>
+<!-- ===== PROBLEMS (HOMEOWNERS) ===== -->
+<section class="hx-problems" id="problems">
+  <div class="hx-wrap">
+    <div class="hx-head reveal">
+      <span class="hx-tag">For homeowners</span>
+      <h2>Is your <span class="hx-grad">solar</span> really working?</h2>
+      <p>Most problems go unnoticed until the electric bill goes up. Sound familiar?</p>
+    </div>
+    <div class="hx-pgrid">
+      <div class="hx-pcard reveal">
+        <div class="hx-pimg" style="background-image:url('Img/A2.jpg')"><span class="hx-badge hx-red"><i class="fa-solid fa-arrow-trend-up"></i> Bill going up</span></div>
+        <h3>Your bill keeps going up</h3>
+        <p>You have panels, but you are still paying too much for power.</p>
       </div>
-
-      <div class="solar-right">
-
-          <div class="solar-item reveal-item">
-              <div class="solar-icon">☀</div>
-              <div class="stars">★★★★★</div>
-              <span>Certified Technicians</span>
-          </div>
-
-          <div class="solar-item reveal-item">
-              <div class="solar-icon">🔋</div>
-              <div class="stars">★★★★★</div>
-              <span>10+ Years of Solar Experience</span>
-          </div>
-
-          <div class="solar-item reveal-item">
-              <div class="solar-icon">🏠</div>
-              <div class="stars">★★★★★</div>
-              <span>Insured &amp; Fully Equipped</span>
-          </div>
-
+      <div class="hx-pcard reveal">
+        <div class="hx-pimg" style="background-image:url('Img/F-Reel-1.jpg')"><span class="hx-badge hx-red"><i class="fa-solid fa-triangle-exclamation"></i> Inverter error</span></div>
+        <h3>Inverter with a red light</h3>
+        <p>A failed inverter or microinverter can stop your whole system.</p>
       </div>
-
+      <div class="hx-pcard reveal">
+        <div class="hx-pimg" style="background-image:url('Img/F-Reel-9.jpg')"><span class="hx-badge hx-red"><i class="fa-solid fa-wifi"></i> Not reporting</span></div>
+        <h3>App not reporting</h3>
+        <p>No data in your app? You cannot tell if it is producing.</p>
+      </div>
+      <div class="hx-pcard reveal">
+        <div class="hx-pimg" style="background-image:url('Img/P-Reel-3.jpg')"><span class="hx-badge hx-red"><i class="fa-solid fa-bolt"></i> Low production</span></div>
+        <h3>Panels not producing</h3>
+        <p>A damaged panel or loose connection can cost you for months.</p>
+      </div>
+    </div>
+    <div class="hx-solution reveal">
+      <div class="hx-sol-text">
+        <span class="hx-tag hx-tag-lime">The solution</span>
+        <h3>We find the problem and fix it.</h3>
+        <ul>
+          <li><i class="fa-solid fa-magnifying-glass"></i> Full diagnosis of panels, inverters and wiring</li>
+          <li><i class="fa-solid fa-screwdriver-wrench"></i> Repair or warranty replacement (RMA)</li>
+          <li><i class="fa-solid fa-camera"></i> Photo report of everything we did</li>
+          <li><i class="fa-solid fa-sun"></i> Your system back to full power</li>
+        </ul>
+      </div>
+      <a class="hx-btn hx-wa hx-big" href="https://wa.me/19542959720" target="_blank" rel="noopener">
+        <span class="hx-ico"><i class="fa-brands fa-whatsapp"></i></span>
+        <span class="hx-txt"><small>Send us a photo of your inverter or app</small><b>Chat on WhatsApp</b></span>
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- ===== PARTNERS (B2B) ===== -->
-<section class="partners" id="partners">
-<div class="partners-container">
-<div class="partners-head reveal">
-<span class="partners-tag">For Solar &amp; Roofing Companies</span>
-<h2>Your Florida Installation &amp; Service Crew</h2>
-<p>Solar companies from Florida and other states trust us to install, service and maintain their systems, and roofing contractors rely on us for safe deinstall &amp; reinstall. One call gets you a certified crew and photo documentation on every job.</p>
-</div>
-<div class="partners-grid">
-<div class="partner-card reveal"><div class="partner-icon">🛠️</div><h3>Solar Installation</h3><p>Residential and commercial installs: racking, panels, inverters, microinverters and optimizers, built to Florida code.</p></div>
-<div class="partner-card reveal"><div class="partner-icon">🔋</div><h3>Battery Storage</h3><p>Tesla Powerwall, Enphase, SolarEdge and FranklinWH battery installation, integration and commissioning.</p></div>
-<div class="partner-card reveal"><div class="partner-icon">🏠</div><h3>Deinstall &amp; Reinstall for Roofers</h3><p>We remove and reinstall solar systems so roofing companies can complete roof replacements and repairs on schedule.</p></div>
-<div class="partner-card reveal"><div class="partner-icon">⚡</div><h3>Service Calls &amp; RMA</h3><p>Troubleshooting, warranty replacements and low-production repairs for your customers in Florida.</p></div>
-<div class="partner-card reveal"><div class="partner-icon">📸</div><h3>Photo Reports</h3><p>Before and after photos, measurements and clear documentation on every job, ready for your office, the manufacturer or insurance.</p></div>
-<div class="partner-card reveal"><div class="partner-icon">🌎</div><h3>Out-of-State Partners</h3><p>Have customers in Florida? We work as your local crew so you can grow here without opening an office.</p></div>
-</div>
-<div class="cert-strip reveal">
-<h3>Certified by Leading Manufacturers</h3>
-<div class="cert-badges"><span>Tesla</span><span>Enphase</span><span>Qcells</span><span>SolarEdge</span><span>FranklinWH</span></div>
-<p class="cert-note">Insured &nbsp;•&nbsp; OSHA safety practices &nbsp;•&nbsp; NEC-compliant work &nbsp;•&nbsp; 10+ years in the field</p>
-</div>
-<div class="partners-cta reveal">
-<a href="#partners" class="partners-btn" data-open-partner>Partner With Us</a>
-<a href="tel:+19542959720" class="partners-btn ghost">Call (954) 295-9720</a>
-</div>
-</div>
+<!-- ===== STATS ===== -->
+<section class="hx-stats">
+  <div class="hx-wrap hx-sgrid">
+    <div class="hx-stat reveal"><b><span class="hx-count" data-to="10">0</span>+</b><span>Years of solar experience</span></div>
+    <div class="hx-stat reveal"><b><span class="hx-count" data-to="5">0</span></b><span>Manufacturer certifications</span></div>
+    <div class="hx-stat reveal"><b><span class="hx-count" data-to="3">0</span></b><span>Counties: Broward, Miami-Dade &amp; Palm Beach</span></div>
+    <div class="hx-stat reveal"><b><span class="hx-count" data-to="100">0</span>%</b><span>Jobs with photo report</span></div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="hx-gallery">
+  <div class="hx-head reveal">
+    <span class="hx-tag">Real work</span>
+    <h2>Our jobs in South Florida</h2>
+  </div>
+  <div class="hx-marquee">
+    <div class="hx-track">
+      <img src="Img/A1.jpg" alt="Solar panels on a tile roof in South Florida" loading="lazy">
+      <img src="Img/T1.jpg" alt="Solar system on a flat roof" loading="lazy">
+      <img src="Img/F-Reel-3.jpg" alt="Solar inverter wiring" loading="lazy">
+      <img src="Img/servicio1.jpg" alt="Solar array on a shingle roof" loading="lazy">
+      <img src="Img/F-Projects.jpg" alt="Solar panels on a metal roof" loading="lazy">
+      <img src="Img/A4.jpg" alt="Black solar panels with palm trees" loading="lazy">
+      <img src="Img/servicio5.jpg" alt="Technician on a roof servicing solar" loading="lazy">
+      <img src="Img/T3.jpg" alt="Solar installation in South Florida" loading="lazy">
+      <img src="Img/about-ref.jpg" alt="Project X Service truck" loading="lazy">
+    </div>
+  </div>
+  <div class="hx-center reveal"><a class="hx-link" href="projects.html">See all projects <i class="fa-solid fa-arrow-right"></i></a></div>
 </section>
 
 <!-- ===== SECCIÓN SERVICIOS ===== -->
@@ -207,7 +218,7 @@
       <h2 class="reveal">Installation &amp; service by certified professionals</h2>
 
       <p class="reveal">
-        Our certified team installs, services and maintains residential and commercial solar systems for homeowners, solar companies and roofing contractors. From site assessment and installation to troubleshooting, warranty (RMA) work and deinstall/reinstall, we handle the whole process and document every job with photos.
+        Our certified team installs, services and maintains residential and commercial solar systems for homeowners and solar companies. From site assessment and installation to troubleshooting, warranty (RMA) work and deinstall/reinstall, we handle the whole process and document every job with photos.
       </p>
       <!-- ICONOS -->
       <div class="services-features">
@@ -241,7 +252,7 @@
   <div class="services-hero">
     <h2 class="reveal">Services</h2>
     <p class="reveal">
-      Installation, service and maintenance for solar companies, roofing contractors and homeowners.
+      Installation, service and maintenance for homeowners and solar companies.
     </p>
   </div>
 
@@ -381,6 +392,34 @@
 
   </div>
 
+</section>
+
+<!-- ===== PARTNERS (B2B) ===== -->
+<section class="partners" id="partners">
+<div class="partners-container">
+<div class="partners-head reveal">
+<span class="partners-tag">For Solar Companies</span>
+<h2>Your Florida Solar Installation &amp; Service Crew</h2>
+<p>Solar companies from Florida and other states trust us to install, service and maintain their systems, including safe remove &amp; reinstall when a roof needs work. One call gets you a certified crew and photo documentation on every job.</p>
+</div>
+<div class="partners-grid">
+<div class="partner-card reveal"><div class="partner-icon">🛠️</div><h3>Solar Installation</h3><p>Residential and commercial installs: racking, panels, inverters, microinverters and optimizers, built to Florida code.</p></div>
+<div class="partner-card reveal"><div class="partner-icon">🔋</div><h3>Battery Storage</h3><p>Tesla Powerwall, Enphase, SolarEdge and FranklinWH battery installation, integration and commissioning.</p></div>
+<div class="partner-card reveal"><div class="partner-icon">🏠</div><h3>Remove &amp; Reinstall</h3><p>We safely remove and reinstall solar systems when the roof needs work, and leave everything producing again.</p></div>
+<div class="partner-card reveal"><div class="partner-icon">⚡</div><h3>Service Calls &amp; RMA</h3><p>Troubleshooting, warranty replacements and low-production repairs for your customers in Florida.</p></div>
+<div class="partner-card reveal"><div class="partner-icon">📸</div><h3>Photo Reports</h3><p>Before and after photos, measurements and clear documentation on every job, ready for your office, the manufacturer or insurance.</p></div>
+<div class="partner-card reveal"><div class="partner-icon">🌎</div><h3>Out-of-State Partners</h3><p>Have customers in Florida? We work as your local crew so you can grow here without opening an office.</p></div>
+</div>
+<div class="cert-strip reveal">
+<h3>Certified by Leading Manufacturers</h3>
+<div class="cert-badges"><span>Tesla</span><span>Enphase</span><span>Qcells</span><span>SolarEdge</span><span>FranklinWH</span></div>
+<p class="cert-note">Insured &nbsp;•&nbsp; OSHA safety practices &nbsp;•&nbsp; NEC-compliant work &nbsp;•&nbsp; 10+ years in the field</p>
+</div>
+<div class="partners-cta reveal">
+<a href="#partners" class="partners-btn" data-open-partner>Partner With Us</a>
+<a href="tel:+19542959720" class="partners-btn ghost">Call (954) 295-9720</a>
+</div>
+</div>
 </section>
 
 <section class="brands reveal">
@@ -534,6 +573,25 @@ fetch('https://formsubmit.co/ajax/contact@projectxservice.com',{method:'POST',he
 })();
 </script>
 
+<a class="hx-float" href="https://wa.me/19542959720" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="hx-mbar">
+  <a href="https://wa.me/19542959720" target="_blank" rel="noopener" class="hx-mwa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+  <a href="tel:+19542959720" class="hx-mcall"><i class="fa-solid fa-phone"></i> Call</a>
+</div>
+<script>
+(function(){
+  var slides=document.querySelectorAll('.hx-slide'),i=0;
+  if(slides.length){slides[0].classList.add('on');setInterval(function(){slides[i].classList.remove('on');i=(i+1)%slides.length;slides[i].classList.add('on');},5000);}
+  var tr=document.querySelector('.hx-track');if(tr){var n0=tr.children.length;tr.innerHTML+=tr.innerHTML;for(var k=n0;k<tr.children.length;k++){tr.children[k].setAttribute('aria-hidden','true');tr.children[k].alt='';}}
+  var nums=document.querySelectorAll('.hx-count');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var el=e.target,to=+el.dataset.to,t0=null;
+      function step(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1400);el.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step);}
+      requestAnimationFrame(step);io.unobserve(el);});},{threshold:.5});
+    nums.forEach(function(n){io.observe(n);});
+  } else nums.forEach(function(n){n.textContent=n.dataset.to;});
+})();
+</script>
 <script src="script.js"></script>
 </body>
 
