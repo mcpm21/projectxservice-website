@@ -127,6 +127,8 @@ h1,h2,h3{letter-spacing:-.4px;}
 @media (max-width:1024px){
   .hero-text{margin-left:0 !important;max-width:none;}
   .hero-text h1{font-size:44px;}
+  .hero-text p{margin-left:auto;margin-right:auto;}
+  .hx-cta{justify-content:center;}
 }
 @media (max-width:768px){
   .hero-text h1{font-size:36px;}
